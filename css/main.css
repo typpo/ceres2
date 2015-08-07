@@ -42,6 +42,30 @@ a {
   color: #aaa;
 }
 
+.pluto-link-container {
+  margin-top: 14px;
+}
+
+.pluto-link {
+  padding: 6px;
+  border: 1px solid goldenrod;
+  background-color: #000;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+.pluto-link:hover {
+  background-color: goldenrod;
+  color: #000;
+}
+
+.pluto-link span {
+  text-decoration: underline;
+}
+
 #bottom-left {
   position: absolute;
   bottom: 40px;
